@@ -1,12 +1,13 @@
 var React = require('react');
 
 var TodoSearch = React.createClass({
-    handleSearch: function () {
-        var showCompleted = this.refs.showCompleted.checked;
-        var searchText = this.refs.searchText.value;
+   handleSearch: function () {
+       var showCompleted = this.refs.showCompleted.checked;
+       var searchText = this.refs.searchText.value;
 
-        this.props.onSearch(showCompleted, searchText);
-    },
+       this.props.onSearch(showCompleted, searchText);
+   },
+
     render: function () {
         return (
             <div>
@@ -20,9 +21,8 @@ var TodoSearch = React.createClass({
                     </label>
                 </div>
             </div>
-        );
+        )
     }
-
 });
 
 module.exports = TodoSearch;

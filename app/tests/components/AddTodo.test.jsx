@@ -6,13 +6,13 @@ var $ = require('jquery');
 
 var AddTodo = require('AddTodo');
 
-describe('AddTodo', () => {
-    it('should exist', () => {
+describe('AddTodo', () =>{
+   it('should exist', () => {
         expect(AddTodo).toExist();
-    });
+   });
 
-    it('should call onAddTodo prop with valid data', () => {
-        var todoText = 'Check mail';
+    it('should call onAddTodo prop with valid data', () =>{
+       var todoText = 'Check mail';
         var spy = expect.createSpy();
         var addTodo = TestUtils.renderIntoDocument(<AddTodo onAddTodo={spy}/>);
         var $el = $(ReactDOM.findDOMNode(addTodo));
@@ -23,8 +23,8 @@ describe('AddTodo', () => {
         expect(spy).toHaveBeenCalledWith(todoText);
     });
 
-    it('should not call onAddTodo prop when invalid input', () => {
-        var todoText = '';
+    it('should not call onAddTodo prop when invaid input', () => {
+       var todoText = '';
         var spy = expect.createSpy();
         var addTodo = TestUtils.renderIntoDocument(<AddTodo onAddTodo={spy}/>);
         var $el = $(ReactDOM.findDOMNode(addTodo));
@@ -34,4 +34,5 @@ describe('AddTodo', () => {
 
         expect(spy).toNotHaveBeenCalled();
     });
+
 });
