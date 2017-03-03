@@ -4,18 +4,10 @@
     <list default="true" id="55317b3a-347a-4c71-9332-0ec84ad9277a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.jsx" afterPath="$PROJECT_DIR$/app/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/AddTodo.jsx" afterPath="$PROJECT_DIR$/app/components/AddTodo.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Todo.jsx" afterPath="$PROJECT_DIR$/app/components/Todo.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/TodoApp.jsx" afterPath="$PROJECT_DIR$/app/components/TodoApp.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/TodoList.jsx" afterPath="$PROJECT_DIR$/app/components/TodoList.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/reducers/reducers.jsx" afterPath="$PROJECT_DIR$/app/reducers/reducers.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/configureStore.jsx" afterPath="$PROJECT_DIR$/app/store/configureStore.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/components/AddTodo.test.jsx" afterPath="$PROJECT_DIR$/app/tests/components/AddTodo.test.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/components/Todo.test.jsx" afterPath="$PROJECT_DIR$/app/tests/components/Todo.test.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" afterPath="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/components/TodoList.test.jsx" afterPath="$PROJECT_DIR$/app/tests/components/TodoList.test.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx" afterPath="$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/TodoSearch.jsx" afterPath="$PROJECT_DIR$/app/components/TodoSearch.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/components/TodoSearch.test.jsx" afterPath="$PROJECT_DIR$/app/tests/components/TodoSearch.test.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bundle.js" afterPath="$PROJECT_DIR$/public/bundle.js" />
     </list>
     <ignored path="ReactTodo.iws" />
@@ -39,31 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reducers.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/reducers/reducers.jsx">
+      <file leaf-file-name="TodoSearch.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/TodoSearch.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="570">
+              <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTodo.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/AddTodo.jsx">
+      <file leaf-file-name="TodoSearch.test.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tests/components/TodoSearch.test.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddTodo.test.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/components/AddTodo.test.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+            <state relative-caret-position="615">
+              <caret line="41" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,11 +54,31 @@
       <file leaf-file-name="TodoApp.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/TodoApp.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="18" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="25" />
               <folding>
                 <element signature="e#96#127#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoList.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/TodoList.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/app.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,12 +101,10 @@
         <option value="$PROJECT_DIR$/playground/spread.js" />
         <option value="$PROJECT_DIR$/app/tests/components/TodoAPI.test.jsx" />
         <option value="$PROJECT_DIR$/app/styles/base/_foundation-settings.scss" />
-        <option value="$PROJECT_DIR$/app/tests/components/TodoSearch.test.jsx" />
         <option value="$PROJECT_DIR$/app/api/TodoAPI.jsx" />
         <option value="$PROJECT_DIR$/app/tests/api/TodoAPI.test.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/playground/moment-example.js" />
-        <option value="$PROJECT_DIR$/app/components/TodoSearch.jsx" />
         <option value="$PROJECT_DIR$/app/styles/components/_page-title.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/_container.scss" />
         <option value="$PROJECT_DIR$/app/styles/base/_variables.scss" />
@@ -113,18 +113,20 @@
         <option value="$PROJECT_DIR$/app/actions/actions.jsx" />
         <option value="$PROJECT_DIR$/app/tests/actions/actions.test.jsx" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/app/app.jsx" />
         <option value="$PROJECT_DIR$/app/store/configureStore.jsx" />
         <option value="$PROJECT_DIR$/app/tests/components/Todo.test.jsx" />
         <option value="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" />
         <option value="$PROJECT_DIR$/app/tests/components/TodoList.test.jsx" />
         <option value="$PROJECT_DIR$/app/components/Todo.jsx" />
-        <option value="$PROJECT_DIR$/app/components/TodoList.jsx" />
         <option value="$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx" />
         <option value="$PROJECT_DIR$/app/components/AddTodo.jsx" />
         <option value="$PROJECT_DIR$/app/tests/components/AddTodo.test.jsx" />
-        <option value="$PROJECT_DIR$/app/components/TodoApp.jsx" />
         <option value="$PROJECT_DIR$/app/reducers/reducers.jsx" />
+        <option value="$PROJECT_DIR$/app/components/TodoSearch.jsx" />
+        <option value="$PROJECT_DIR$/app/tests/components/TodoSearch.test.jsx" />
+        <option value="$PROJECT_DIR$/app/components/TodoApp.jsx" />
+        <option value="$PROJECT_DIR$/app/components/TodoList.jsx" />
+        <option value="$PROJECT_DIR$/app/app.jsx" />
       </list>
     </option>
   </component>
@@ -137,7 +139,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="612" />
+    <option name="width" value="594" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -287,15 +289,16 @@
       <workItem from="1487905302738" duration="508000" />
       <workItem from="1487961978680" duration="33000" />
       <workItem from="1488218185423" duration="181000" />
-      <workItem from="1488417818261" duration="5402000" />
+      <workItem from="1488417818261" duration="5700000" />
+      <workItem from="1488507024255" duration="1451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66322000" />
+    <option name="totallyTimeSpent" value="68071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="612" height="900" extended-state="6" />
+    <frame x="0" y="0" width="594" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23202614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -433,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/components/TodoSearch.test.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/api/TodoAPI.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
@@ -465,13 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/TodoSearch.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -528,15 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,15 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/TodoList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +547,7 @@
         <state relative-caret-position="210">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
-            <element signature="e#220#261#0" expanded="true" />
+            <element signature="e#220#261#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -594,14 +564,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/components/AddTodo.test.jsx">
+    <entry file="file://$PROJECT_DIR$/app/reducers/reducers.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+        <state relative-caret-position="660">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -614,20 +583,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/components/AddTodo.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/TodoSearch.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/components/TodoSearch.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/TodoApp.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="18" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="25" />
           <folding>
             <element signature="e#96#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/reducers/reducers.jsx">
+    <entry file="file://$PROJECT_DIR$/app/components/TodoList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="420">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
