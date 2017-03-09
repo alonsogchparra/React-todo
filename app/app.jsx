@@ -9,6 +9,7 @@ var actions = require('actions');
 var store = require('configureStore').configure();
 var TodoAPI = require('TodoAPI');
 
+
 //Subscribe works for listen the changes of the store
 store.subscribe(() => {
     var state = store.getState();
